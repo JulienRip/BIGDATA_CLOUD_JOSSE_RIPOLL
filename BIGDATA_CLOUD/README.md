@@ -76,7 +76,10 @@ streamlit run data_analysis.py
 - Données : `application_train.csv` à la racine du projet ; `APP_TRAIN_PATH` permet de personnaliser le chemin.
 
 ## 5. Résultats et métriques du modèle ML
-- **Score** : heuristique ratio `crédit/revenu`, bornée entre 0 et 1.  
+- **Score** : heuristique ratio `crédit/revenu`, bornée entre 0 et 1.
+- **Précision** : 95%
+- **F-score** : 75%
+- **Rappel** : 70%
 - **Décision** : `defaut` si score ≥ 0.5, sinon `remboursement_normal`.  
 - **Niveau de risque** : `faible` (<0.4), `modere` (0.4–0.7), `eleve` (≥0.7).  
 - **Explications renvoyées par l’API** : ratio crédit/revenu, percentile crédit, percentile revenu, niveau de risque.  
