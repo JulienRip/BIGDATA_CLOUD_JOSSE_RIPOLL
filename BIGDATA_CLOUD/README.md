@@ -22,6 +22,10 @@ pip install streamlit flask flask-caching python-dotenv pandas plotly requests
 ```
 > L’API fait déjà un auto-install minimal, mais il est recommandé d’installer les dépendances au préalable pour éviter les délais au démarrage.
 
+Jeu de données :
+
+https://github.com/archiducarmel/SupdeVinci_BigData_Cloud/releases/download/datas/application_train.csv
+
 ### Variables d’environnement
 Créez ou éditez `.env` (exemples) :
 ```
